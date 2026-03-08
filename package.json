@@ -1,0 +1,16 @@
+{
+  "name": "tech-sheroes-africa",
+  "version": "1.0.0",
+  "description": "Platform celebrating African women in STEM",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "node backend/server.js",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview"
+  },
+  "keywords": ["stem", "women", "africa", "tech"],
+  "author": "Tech Sheroes Africa",
+  "license": "MIT"
+}
